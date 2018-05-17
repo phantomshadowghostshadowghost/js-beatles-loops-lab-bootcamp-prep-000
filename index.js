@@ -21,7 +21,11 @@ function iLoveTheBeatles(numb) {
   var lmd = []
   var x = 0
   do { lmd.push("I love the Beatles!")
+<<<<<<< HEAD
   x += 2
+=======
+  x++
+>>>>>>> b36ec63bc6b76c2bc259f81cec5efdbdc9074c39
   } while ((x < 15) && (numb < 15))
   return lmd
 }
